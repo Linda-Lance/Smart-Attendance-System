@@ -1,19 +1,19 @@
-📌 **Face Recognition Attendance System**
+📌# Face Recognition Attendance System
 
-📖 Overview
+📖 **Overview**
 
 This project is a real-time Face Recognition Attendance System built with Python, OpenCV, and Machine Learning (KNN).
 It detects faces using a webcam, recognizes registered users, and marks attendance with entry/exit times in CSV files.
 The system also provides voice feedback and can send WhatsApp notifications for attendance updates.
 
-✨ Features
+✨ **Features**
   - Face detection & recognition using OpenCV Haarcascade and KNN classifier
   - Automatic attendance logging into CSV files with timestamps
   - Text-to-Speech (TTS) feedback for entry/exit
   - WhatsApp integration to send attendance reports using pywhatkit & pyautogui
   - Custom background interface for a clean display
 
-🛠️ Tech Stack
+🛠️ **Tech Stack**
   - Python 3.x
   - OpenCV – Face detection & image processing
   - Scikit-learn (KNN) – Face recognition
@@ -21,7 +21,7 @@ The system also provides voice feedback and can send WhatsApp notifications for 
   - PyWhatKit & PyAutoGUI – WhatsApp message automation
   - SAPI.SpVoice (win32com) – Text-to-Speech engine (Windows only)
 
-📂 Project Structure
+📂 **Project Structure**
 Face-Attendance-System/
 │── data/                     # Stores haarcascade and face data
 │   ├── haarcascade_frontalface_default.xml
@@ -39,8 +39,8 @@ Face-Attendance-System/
 │── requirements.txt          # Dependencies
 
 
-⚙️ Installation & Setup
-
+⚙️** Installation & Setup
+**
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/Face-Attendance-System.git
 cd Face-Attendance-System
@@ -73,7 +73,7 @@ Attendance will be logged automatically
 
 Exit by pressing q
 
-📜 Requirements File (requirements.txt)
+📜 **Requirements File** (requirements.txt)
 opencv-python
 scikit-learn
 numpy
@@ -83,19 +83,19 @@ pyautogui
 requests
 pywin32
 
-🚀 How It Works
+🚀 **How It Works**
   - Face Data Collection – Captures & stores user faces in data/.
   - Training – Uses KNN classifier to learn face embeddings.
   - Recognition & Attendance – Detects faces, logs timestamps, provides TTS feedback.
   - WhatsApp Notification – Sends attendance summary via WhatsApp after session ends.
 
-📊 Sample Attendance CSV
+📊 **Sample Attendance CSV**
 NAME	ENTRY TIME	EXIT TIME	STATUS
 Linda	09:45:12	12:10:35	Exit
 Alex	10:00:21	11:59:50	Exit
 
 
-📢 Future Enhancements
+📢 **Future Enhancements**
   - Cloud database integration (Firebase/MySQL)
   - Web dashboard for real-time monitoring
   - Mobile app integration
