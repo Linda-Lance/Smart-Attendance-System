@@ -39,8 +39,8 @@ Face-Attendance-System/
 │── requirements.txt          # Dependencies
 
 
-⚙️** Installation & Setup
-**
+⚙️** Installation & Setup**
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/Face-Attendance-System.git
 cd Face-Attendance-System
