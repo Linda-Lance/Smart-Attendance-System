@@ -39,7 +39,7 @@ Face-Attendance-System/
 │── requirements.txt          # Dependencies
 
 
-⚙️** Installation & Setup**
+⚙️**Installation & Setup**
 
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/Face-Attendance-System.git
@@ -74,14 +74,14 @@ Attendance will be logged automatically
 Exit by pressing q
 
 📜 **Requirements File** (requirements.txt)
-opencv-python
-scikit-learn
-numpy
-pandas
-pywhatkit
-pyautogui
-requests
-pywin32
+  - opencv-python
+  - scikit-learn
+  - numpy
+  - pandas
+  - pywhatkit
+  - pyautogui
+  - requests
+  - pywin32
 
 🚀 **How It Works**
   - Face Data Collection – Captures & stores user faces in data/.
