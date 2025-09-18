@@ -1,4 +1,4 @@
-📌 Face Recognition Attendance System
+📌 **Face Recognition Attendance System**
 
 📖 Overview
 
@@ -47,10 +47,10 @@ cd Face-Attendance-System
 
 2️⃣ Create Virtual Environment (recommended)
 python -m venv venv
-# Activate it:
-# Windows
+#Activate it:
+#Windows
 venv\Scripts\activate
-# macOS/Linux
+#macOS/Linux
 source venv/bin/activate
 
 3️⃣ Install Dependencies
